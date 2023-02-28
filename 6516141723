@@ -1,0 +1,4 @@
+local placeId = 'github.com/LXZXYZ/TX-Hub/tree/main/'.. game.PlaceId
+local found, notFound = pcall(function()
+	game:HttpGet(placeId)
+end)
